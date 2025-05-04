@@ -1,11 +1,9 @@
-# osTicket-Perequisites-and-installation-
-This is an easy guide to installing a help desk ticketing system called osTicket. 
-
 
 
 How to Install osTicket
 This is an easy guide to installing a help desk ticketing system called osTicket.
-
+Files You Need to Download
+Download Now 📁
 Software & Technologies Used
 Windows 10 (Build 19044)
 
