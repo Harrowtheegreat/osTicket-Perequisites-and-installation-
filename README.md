@@ -1,6 +1,8 @@
 # osTicket-Perequisites-and-installation-
 This is an easy guide to installing a help desk ticketing system called osTicket. 
 
+
+
 How to Install osTicket
 This is an easy guide to installing a help desk ticketing system called osTicket.
 
