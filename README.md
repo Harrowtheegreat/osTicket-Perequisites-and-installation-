@@ -27,25 +27,10 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <br />
 <p>
 <h3 align="center">First, start by creating a Resource Group inside Azure.</h3>
-# 1. Set your variables
-RESOURCE_GROUP="OsTicket"
-VM_NAME="osTicket-vm"
-LOCATION="East US 2"
 
-# 2. Create a resource group
-az group create --name $RESOURCE_GROUP --location "$LOCATION"
-
-# 3. Create the virtual machine
-az vm create \
-  --resource-group $RESOURCE_GROUP \
-  --name $VM_NAME \
-  --image UbuntuLTS \
-  --admin-username azureuser \
-  --generate-ssh-keys \
-  --location "$LOCATION"
-
-# 4. Open port 80 for HTTP access (if needed)
-az vm open-port --port 80 --resource-group $RESOURCE_GROUP --name $VM_NAME
+<p>
+  <img src="https://your-image-host.com/osticket-vm-setup.png" height="75%" width="100%" />
+</p>
 
 
 
