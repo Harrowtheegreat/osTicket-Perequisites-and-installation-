@@ -26,11 +26,24 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <h3 align="center">Create Virtual Machine in Azure</h3>
 <br />
 <p>
-<h3 align="center">First, start by creating a Resource Group inside Azure.</h3>
+  
+<h3 align="center"> by creating a <em>Resource Group</em>, then proceed to create a <em>Virtual Machine</em>, making sure to select your preferred <em>Region</em> during setup .</h3>
 
-<p>
-  <img src="https://your-image-host.com/osticket-vm-setup.png" height="75%" width="100%" />
-</p>
+
+
+
+![Screenshot 2025-04-25 185246](https://github.com/user-attachments/assets/4a23e286-bb78-48b4-bcfb-15fa8539b23f)
+
+
+
+<h3 align="center"> During the Virtual Machine setup, choose your desired availability zone, set the Security Type to <em>Trusted launch virtual machine</em>, select the Image as <em>Windows 10 Pro, version 22H2 - x64 Gen2</em>, and configure the VM Size to <em>Standard_D2s_v3 (2 vCPUs, 8 GiB memory)</em> – $70.08/month. .</h3>
+
+
+![Screenshot 2025-04-25 185515](https://github.com/user-attachments/assets/66029223-657a-4cfa-8471-67c0ea3356a9)
+
+
+![Screenshot 2025-04-25 190748](https://github.com/user-attachments/assets/94458b16-9a82-4141-9aeb-bb08206431e4)
+
 
 
 
