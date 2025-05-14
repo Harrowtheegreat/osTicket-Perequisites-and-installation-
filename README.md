@@ -42,7 +42,57 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 ![Screenshot 2025-04-25 185515](https://github.com/user-attachments/assets/66029223-657a-4cfa-8471-67c0ea3356a9)
 
 
+
+<h3 align="center">Created a Username and password to login into the VM</h3>
+
+
+
 ![Screenshot 2025-04-25 190748](https://github.com/user-attachments/assets/94458b16-9a82-4141-9aeb-bb08206431e4)
+
+
+
+<h3 align="center">Open your Remote Desktop Connection app on your computer and connect to your Virtual Machine that was created in Azure.</h3>
+
+![Screenshot 2025-04-25 191900](https://github.com/user-attachments/assets/79bdb36a-58ff-4105-8ca8-912d886bad7c)
+
+
+
+<h3 align="center">Now we need to install / Enable IIS in Windows. Go to your Search Bar > Type "Control Panel" > Click "Programs" > "Turn Windows features on or off" > Scroll down to "Internet Information Services (IIS)   Once clicked, find the "Internet Information Services" expand it and then expand the "World Wide Web" tab. Afterward, expand the application Developer tab. Finally check the "CGI" button & press Ok. You will need CGI to download the PHP Manager. The PHP manager is a back-end web programming language that allows osTicket to run off a web browser .</h3>
+
+
+![Screenshot 2025-04-25 194906](https://github.com/user-attachments/assets/91f267e7-6fa6-4d49-8e5b-8283da4f9155)
+
+
+
+<h3 align="center"> Install PHP Manager
+
+
+Download the PHP manager file, and agree with all the terms. We've now downloaded the PHP manager into our operating system.
+     </h3>
+
+![Screenshot 2025-04-25 201308](https://github.com/user-attachments/assets/9258b6e5-519e-4233-8cae-4b1bfc91c8c3)
+
+
+<h3 align="center">Download the Rewrite Module file, agree with all the terms and it should now be installed onto the Computer.</h3>
+
+
+![Screenshot 2025-05-14 194042](https://github.com/user-attachments/assets/09d4b383-eb1e-4c19-9f04-852730ffe6d5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
