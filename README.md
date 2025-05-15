@@ -62,8 +62,6 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 
 ![Screenshot 2025-04-25 194906](https://github.com/user-attachments/assets/91f267e7-6fa6-4d49-8e5b-8283da4f9155)
 
-
-
 <h3 align="center"> Install PHP Manager
 
 
@@ -79,22 +77,31 @@ Download the PHP manager file, and agree with all the terms. We've now downloade
 ![Screenshot 2025-05-14 194042](https://github.com/user-attachments/assets/09d4b383-eb1e-4c19-9f04-852730ffe6d5)
 
 
+<h3 align="center">CREATE DIRECTORY C:\PHP
 
 
+Open File Explorer, type, "C:\" in the search bar, Right-click and create a new folder called, "PHP". Download php-7.3.8-nts-Win32-VC15-x86.zip from Files You Need to Download, Extract it by going to where you download the file, Right-click the PHP 7.3.8 file and press extract to the PHP Folder you just created.</h3>
 
 
+![Screenshot 2025-05-14 194629](https://github.com/user-attachments/assets/d2492d0a-c4ec-42aa-ba90-fcca0841fb3b)
 
 
+<h3 align="center">VC_REDIST DOWNLOAD
+
+Download and install VC_Redist, Agree with any terms and agreements and finish installing.</h3>
 
 
+![Screenshot 2025-04-25 204840](https://github.com/user-attachments/assets/870d0d24-2b84-443b-a0b8-e5442676d4fa)
 
 
+<h3 align="center">DOWNLOAD MySQL
+Download and install MySQL, Agree with any terms and agreements up until you get to the password portion. Here you can create a username and password for the database that you'll be using to store the Ticket Information used in osTicket.</h3>
 
 
+![Screenshot 2025-04-25 205130](https://github.com/user-attachments/assets/4c834c37-079e-4344-a554-6c44d9f18eea)
 
 
-
-
+![Screenshot 2025-04-25 205246](https://github.com/user-attachments/assets/b5998aaa-7662-446f-9bb6-1087312d92d0)
 
 
 
