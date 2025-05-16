@@ -82,8 +82,7 @@ Download the PHP manager file, and agree with all the terms. We've now downloade
 
 Open File Explorer, type, "C:\" in the search bar, Right-click and create a new folder called, "PHP". Download php-7.3.8-nts-Win32-VC15-x86.zip from Files You Need to Download, Extract it by going to where you download the file, Right-click the PHP 7.3.8 file and press extract to the PHP Folder you just created.</h3>
 
-
-![Screenshot 2025-05-14 194629](https://github.com/user-attachments/assets/d2492d0a-c4ec-42aa-ba90-fcca0841fb3b)
+![Screenshot 2025-05-15 195353](https://github.com/user-attachments/assets/90508bcc-0177-413e-b8bd-71d4e5f2e4cc)
 
 
 <h3 align="center">VC_REDIST DOWNLOAD
@@ -97,11 +96,28 @@ Download and install VC_Redist, Agree with any terms and agreements and finish i
 <h3 align="center">DOWNLOAD MySQL
 Download and install MySQL, Agree with any terms and agreements up until you get to the password portion. Here you can create a username and password for the database that you'll be using to store the Ticket Information used in osTicket.</h3>
 
+![Screenshot 2025-04-25 205130](https://github.com/user-attachments/assets/e9d5648f-c3ea-4ab6-b11d-5aa27329af84)
 
-![Screenshot 2025-04-25 205130](https://github.com/user-attachments/assets/4c834c37-079e-4344-a554-6c44d9f18eea)
+![Screenshot 2025-04-25 205246](https://github.com/user-attachments/assets/288b15bd-3db8-4e53-8976-d55629a1802a)
+
+<h3 align="center">Install osTicket v1.15.8
+
+Download osTicket (download from within lab files: link).
+
+Extract and copy the “upload” folder INTO c:\inetpub\wwwroot:</h3>
+
+![Screenshot 2025-05-15 223137](https://github.com/user-attachments/assets/e63a8274-c4de-47cd-a287-cf5df9d9399a)
+
+![Screenshot 2025-05-15 202922](https://github.com/user-attachments/assets/d85db9f4-0377-4f51-91d4-7db744885373)
+
+Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:
+
+![Screenshot 2025-05-15 202959](https://github.com/user-attachments/assets/f9e9e323-e10d-47f2-9692-08fe6dda234b)
 
 
-![Screenshot 2025-04-25 205246](https://github.com/user-attachments/assets/b5998aaa-7662-446f-9bb6-1087312d92d0)
+
+
+
 
 
 
