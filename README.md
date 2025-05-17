@@ -1,4 +1,4 @@
-![Screenshot 2025-04-25 220250](https://github.com/user-attachments/assets/2c555cbe-db57-4e71-b8e0-44e6f36b6baf)![Screenshot 2025-04-25 220250](https://github.com/user-attachments/assets/2268e64c-3265-46ed-a6ab-1104dd336a35)<p align="center">
+align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png"/>
 </p>
 
@@ -205,5 +205,10 @@ MySQL Password: Password1:
 Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
 
 ![Screenshot 2025-04-25 222507](https://github.com/user-attachments/assets/96547afb-5204-4f0b-a7b3-5ddac647adda)
+
+
+
+
+
 
 
