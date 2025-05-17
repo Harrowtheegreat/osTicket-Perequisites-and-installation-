@@ -1,4 +1,4 @@
-<p align="center">
+![Screenshot 2025-04-25 220250](https://github.com/user-attachments/assets/2c555cbe-db57-4e71-b8e0-44e6f36b6baf)![Screenshot 2025-04-25 220250](https://github.com/user-attachments/assets/2268e64c-3265-46ed-a6ab-1104dd336a35)<p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png"/>
 </p>
 
@@ -115,10 +115,95 @@ Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:
 ![Screenshot 2025-05-15 202959](https://github.com/user-attachments/assets/f9e9e323-e10d-47f2-9692-08fe6dda234b)
 
 
+<h3 align="center">Reload IIS (Open IIS, Stop and Start the server)
+
+Go to sites -> Default -> osTicket:    </h3>
+
+![Screenshot 2025-05-16 195159](https://github.com/user-attachments/assets/1093d04b-2c31-4f2f-bc23-9403a60c74d7)
+
+On the right, click “Browse *:80”:
+![Screenshot 2025-05-16 195235](https://github.com/user-attachments/assets/be586fbf-fcb4-4e9c-b5cd-7a9380107591)
+
+<h3 align="center">Enable Extensions in IIS: Note that some extensions are not enabled
+
+Go back to IIS, sites -> Default -> osTicket.
+
+Double-click PHP Manager:
+</h3>
+
+![Screenshot 2025-05-16 195348](https://github.com/user-attachments/assets/506176ca-4a8f-4d6b-88a6-8bbd46b1b2be)
 
 
+Click “Enable or disable an extension”.
+
+Enable: php_imap.dll.
+
+Enable: php_intl.dll.
+
+Enable: php_opcache.dll:
+
+![Screenshot 2025-04-25 220250](https://github.com/user-attachments/assets/93ab4589-ba34-49fa-beb1-c64ad6b84a6b)
+
+Refresh the osTicket site in your browser, observe the changes
+![Screenshot 2025-05-16 195649](https://github.com/user-attachments/assets/1bbe9f20-6953-43f0-adbe-5c6bbfdb7112)
 
 
+<h3 align="center">Rename
 
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php.
+
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php:</h3>
+
+![Screenshot 2025-04-25 220844](https://github.com/user-attachments/assets/75aea537-8a75-4e6c-8000-73bf5d83a192)
+
+<h3 align="center">Assign Permissions: ost-config.php
+
+Disable inheritance -> Remove All:</h3>
+
+![Screenshot 2025-04-25 220953](https://github.com/user-attachments/assets/db00e13e-ab95-48e6-bcad-a5e4299151f8)
+
+New Permissions -> Everyone -> All:
+
+![Screenshot 2025-04-25 221047](https://github.com/user-attachments/assets/18fcb453-38e3-4d57-833b-8ea31ab30bd1)
+![Screenshot 2025-05-16 201842](https://github.com/user-attachments/assets/44500e63-f503-4c43-9c13-850e1146dd1c)
+<h3 align="center">Continue Setting up osTicket in the browser (click Continue)
+
+Name Helpdesk.
+
+Default email (receives email from customers):</h3>
+![Screenshot 2025-05-16 202443](https://github.com/user-attachments/assets/a1dcb2ac-1f30-4d56-aa40-a9dfdf264bce)
+
+![Screenshot 2025-05-16 202453](https://github.com/user-attachments/assets/e397a5cf-1c42-4f83-8206-9d1930b9dba7)
+
+<h3 align="center">Download and Install HeidiSQL
+</h3>
+
+
+![Screenshot 2025-04-25 221732](https://github.com/user-attachments/assets/a96ef339-31fe-4de3-888f-3193de4fad7c)
+
+Create a new session, root/Password1.
+
+Connect to the session:
+
+![Screenshot 2025-04-25 221904](https://github.com/user-attachments/assets/a2e6f6ad-fd7b-47a3-921c-0b2dd4117be9)
+
+Create a database called “osTicket”:
+
+![Screenshot 2025-04-25 222019](https://github.com/user-attachments/assets/2963755c-105d-4d7a-ae1b-f1e1025b9e13)
+
+<h3 Continue Setting up osTicket in the browser
+
+MySQL Database: osTicket
+
+MySQL Username: root
+
+MySQL Password: Password1:
+</h3>
+
+![Screenshot 2025-05-16 203025](https://github.com/user-attachments/assets/2e4c8a7a-db5d-45ae-8d45-cd75228e6002)
+
+Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+
+![Screenshot 2025-04-25 222507](https://github.com/user-attachments/assets/96547afb-5204-4f0b-a7b3-5ddac647adda)
 
 
